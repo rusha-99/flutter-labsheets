@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 220, 218, 212),
+     backgroundColor: Colors.amber,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
