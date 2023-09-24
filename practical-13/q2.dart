@@ -20,7 +20,8 @@ void main() async {
   // Wait for both futures to complete
   String dataA = await futureA;
   String dataB = await futureB;
-
+  
   print('Data received from Source A: $dataA');
   print('Data received from Source B: $dataB');
+
 }
